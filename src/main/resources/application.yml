@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+#      username: rootuser
+#      password: rootpass
+#      host: localhost
+#      port: 27017
+#      database: productdb
+#      authentication-database: admin
+      #auto-index-creation: true
+      uri: mongodb://rootuser:rootpass@localhost:27017/productdb?authSource=admin
